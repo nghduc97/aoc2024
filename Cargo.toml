@@ -6,7 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+scanf = "1.2.1"
 
 [[bin]]
-name = "day_01"
-path = "src/day_01/main.rs"
+name = "day_01_1"
+path = "src/day_01_1/main.rs"
+
+[[bin]]
+name = "day_01_2"
+path = "src/day_01_2/main.rs"
