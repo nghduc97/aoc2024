@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 regex = "1.11.1"
 scanf = "1.2.1"
+threadpool = "1.8.1"
 
 [[bin]]
 name = "day_01_1"
@@ -48,3 +49,11 @@ path = "src/day_05_1/main.rs"
 [[bin]]
 name = "day_05_2"
 path = "src/day_05_2/main.rs"
+
+[[bin]]
+name = "day_06_1"
+path = "src/day_06_1/main.rs"
+
+[[bin]]
+name = "day_06_2"
+path = "src/day_06_2/main.rs"
