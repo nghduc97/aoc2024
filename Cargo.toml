@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+num_cpus = "1.16.0"
 regex = "1.11.1"
 scanf = "1.2.1"
 threadpool = "1.8.1"
@@ -57,3 +58,11 @@ path = "src/day_06_1/main.rs"
 [[bin]]
 name = "day_06_2"
 path = "src/day_06_2/main.rs"
+
+[[bin]]
+name = "day_07_1"
+path = "src/day_07_1/main.rs"
+
+[[bin]]
+name = "day_07_2"
+path = "src/day_07_2/main.rs"
